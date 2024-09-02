@@ -7,42 +7,93 @@ Theme author: Ali Al-Taweel
   margin: 0px auto;
 }
 #top-navi {
-    background-color: #33cc33;
-    border: solid 2px #336600;
+  background-color: #33cc33;
+  border: solid 2px #336600;
 }
-#top-navi ul{
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
+#top-navi ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
-#top-navi ul li{
-    position: relative;
+#top-navi ul li {
+  position: relative;
 }
 #top-navi ul li a {
-    text-decoration: none;
-    color: #336600;
-    font-weight: bold;
-    display: block;
-    padding: 10px;
-    text-align: center;
+  text-decoration: none;
+  color: #336600;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  text-align: center;
 }
-#top-navi .sub-menu{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    margin-top: 1px;
-    display: none;
+#top-navi .sub-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  margin-top: 1px;
+  display: none;
 }
-#top-navi ul li:hover .sub-menu{
-    display: block;
+#top-navi ul li:hover .sub-menu {
+  display: block;
 }
-#top-navi .sub-menu li{
-    white-space: nowrap;
-    width: 100%;
+#top-navi .sub-menu li {
+  white-space: nowrap;
+  width: 100%;
 }
-#top-navi .sub-menu a{
-    background-color: #33cc33;
-} 
+#top-navi .sub-menu a {
+  background-color: #33cc33;
+}
+#site-header {
+  background: url("banner.jpg");
+  text-align: center;
+  border: solid 2px #336600;
+  border-top: 0;
+  padding: 36px;
+}
+#site-header h1 {
+  color: #336600;
+  font-size: 3.5rem;
+  -webkit-text-stroke: 1px #000000;
+  padding: 0;
+}
+#content {
+  border-left: 2px solid #336600;
+  border-right: 2px solid #336600;
+}
+#main {
+  width: 70%;
+  padding: 15px;
+}
+#content #main a {
+  text-decoration: none;
+  color: #33cc33;
+  font-weight: bold;
+}
+#content #main article {
+  border-bottom: 2px dashed #33cc33;
+  margin-bottom: 10px;
+}
+#content #main article:last-child {
+  border: none;
+}
+#content #main h1,
+#content #main h2 {
+  margin: 0px;
+}
+#content #main h1 a,
+#content #main h2 a {
+  color: #3d7f0a;
+}
+#content #main .date-category {
+  margin-top: 0px;
+  color: #808080;
+}
+#site-footer {
+  background-color: #33cc33;
+  border: solid 2px #336600;
+  text-align: center;
+  padding: 10px;
+}

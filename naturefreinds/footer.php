@@ -2,7 +2,7 @@
 
 
 
-<footer>
+<footer id="site-footer">
     &copy:Freinds of Nature Espoo
 </footer>
 </div>
